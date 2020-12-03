@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: 'See where you’re making and spending money in real.',
+    title: 'Compliance',
+    description: 'Comply with health and saftey regulations through a shared licence.',
   },
   {
     id: 2,
     icon: dart,
-    title: 'Best Strategy',
-    description: 'Send money with three clicks by wire, check, or ACH.',
+    title: 'Product testing',
+    description: 'Test your meal or drink easier for less.',
   },
   {
     id: 3,
     icon: rocket,
-    title: 'Boost Performance',
-    description: 'Choose the right tone and fast formality level.',
+    title: 'Sharing economy',
+    description: 'Share key resources with other startups',
   },
   {
     id: 4,
     icon: trophy,
-    title: 'Award history',
-    description: `Keep secure with fluent 2-factor authentication full activity.`,
+    title: 'Access to market',
+    description: `Intellectual property protection and licensing.`,
   },
 ];
 
@@ -41,8 +41,9 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Go Beyond unlimited features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Go beyond the same old same old"
+          description=" Focus only on creating the best food and drink recipe and leave the business to us.
+          "
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

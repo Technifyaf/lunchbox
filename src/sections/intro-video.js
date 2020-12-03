@@ -17,8 +17,8 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Leading companies trust us to develop most powerful software with our talent team"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
+          title="We are providing a support ecosystem for food & beverage innovators."
+          description="We bring together professionals, ingredients, equipment, technology, financing and safety to boost innovation"
         />
         <Box sx={styles.explore}>
           <LearnMore path="#!" label="Explore More" />

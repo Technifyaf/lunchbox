@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    title: 'Exclusive deals',
+    description: `Follow trending reciepies and secure an exclusive deal for great recipies.   `,
   },
   {
     id: 2,
     icon: diamond,
-    title: 'Pro Subscription',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    title: 'Smart menu',
+    description: `Monitor rising reciepies, spices, sauces and cooking methods in the market to remain competitive.`,
   },
   {
     id: 3,
     icon: help,
-    title: 'Partnership deal',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    title: 'Fresh menu ',
+    description: `keep your menu updated with little changes that make big differences`,
   },
   {
     id: 4,
     icon: award,
-    title: 'Customer Support',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    title: 'Uniqueness score and rating',
+    description: `Measure the degree of your uniquenes against your competitors`,
   },
 ];
 
@@ -41,8 +41,8 @@ const UsefulFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Amazing useful features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Value for Restaurants"
+          description="Gain competitive advantage and offer a truely unique menu."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

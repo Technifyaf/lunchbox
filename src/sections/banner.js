@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
-import banner from 'assets/images/banner.png';
+import banner from 'assets/images/chef.png';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
@@ -12,15 +12,13 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Professional Communication For Your Team
+            Don't sell food, sell recipies.
             </Heading>
             <Text as="p" sx={styles.text}>
-              Get your blood tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+           Recepies scale quicker and are worth more and we help you cut innovation costs. Why not if not.
             </Text>
             <Button variant="primary" sx={styles.button}>
-              Explore Now
+              Get started now
             </Button>
             <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
@@ -29,7 +27,7 @@ const Banner = () => {
             </Box>
           </Box>
           <Box sx={styles.illustration}>
-            <Image src={banner} alt="banner" />
+            <Image src={banner} alt="banner" width ="400"/>
           </Box>
         </Box>
       </Container>

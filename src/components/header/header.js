@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, MenuButton, Flex, Button } from 'theme-ui';
+import { jsx, Box, Container, MenuButton, Flex, Button,Text, Heading } from 'theme-ui';
 import { useState } from 'react';
 import { GrClose } from 'react-icons/gr';
 import Sticky from 'react-stickynode';
@@ -29,6 +29,9 @@ export default function Header() {
           <Container>
             <Box sx={styles.headerInner}>
               <Logo isWhite={mobileMenu} />
+              <Heading sx={styles.title}>
+               Lunchbox.
+            </Heading>
 
               <Flex
                 as="nav"
@@ -50,9 +53,7 @@ export default function Header() {
                     </li>
                   ))}
                 </Box>
-                <Button variant="primaryMd" sx={styles.explore}>
-                  Explore Now
-                </Button>
+               
               </Flex>
 
               {mobileMenu ? (
